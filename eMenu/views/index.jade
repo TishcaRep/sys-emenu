@@ -1,0 +1,18 @@
+extends layout
+
+block content_obj
+  script(type='text/javascript') cajas(#{id},"#{nombre}",'#{descripcion}',#{precio},'#{imge}')
+  script(type='text/javascript') enviar()
+  
+block cuenta
+  div.head-cuenta
+    h1 Cuenta
+  div.tabla_cuenta
+    table
+      th Id
+      th Nombre
+      th Precio
+      tr
+        td hola
+        td hola
+        td hola

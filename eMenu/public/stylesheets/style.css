@@ -1,0 +1,151 @@
+@import url(font-awesome.min.css);
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+/*header*/
+header {
+  background: #ee7b06;
+
+}
+header .navbar {
+  margin-bottom: 0px;
+  border: 0px;
+}
+header .navbar-default {
+  background: none;
+  border: 0px ;
+  margin: auto;
+}
+header .day0  {
+font-size: 30px;
+color: #e8e6ff;
+font-family: "Open Sans", Helvetica, sans-serif;
+}
+header .navbar-default .navbar-nav {
+}
+header .navbar-default .navbar-nav li a {
+  color: #eeeeee;
+  padding: 20px 26px;
+  font-size: 15px;
+
+}
+font header .navbar-default .navbar-nav li a:hover {
+  color: #000;
+}
+.dropbtn{
+    display: inline-block;
+    cursor: pointer;
+
+}
+.invs{
+  width: 0px;
+  height: 0px;
+  visibility:collapse;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.bot_cuenta {
+  height: 50px;
+  width: 100px;
+  border-color: transparent;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #e33f0f;
+  border-radius: 3px;
+}
+.bot_cuenta a {
+  font-family: 'FontAwesome';
+  font-size: 20px;
+  color: #f2f2f2;
+}
+.bot_cuenta:hover {
+  background-color: #b5320c;
+}
+.bot_cuenta:active {
+  background-color: #b5320c;
+}
+
+
+
+.menu{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+.box{
+  width: 170px;
+  background-color: #e8e6ff;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px #c8b69e;
+  margin-left: 5px ;
+  margin-top: 5px;
+  float:left;
+}
+
+.box img{
+  height: 180px;
+  width: 170px;
+  border-radius:20px;
+}
+.box .numb {
+  width: 60px;
+}
+.box button{
+  height: 30px;
+  margin-left:15px;
+  text-align: center;
+}
+
+.cuenta-temp{
+  margin-top: 10px auto;
+  height:auto;
+  width: 100%;
+}
+.head-cuenta{
+  text-align: center;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 5px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
