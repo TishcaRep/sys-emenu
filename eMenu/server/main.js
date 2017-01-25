@@ -6,10 +6,7 @@ var mysql = require('mysql');
 
 app.use(express.static('public'));
 
-app.get('/admin',function(req,res){
-  
-  console.log('intentan acceder al admin');
-});
+
 //--------------------------------------------
 //        sql
 var connection = mysql.createConnection({
