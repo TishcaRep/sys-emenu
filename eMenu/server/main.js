@@ -6,7 +6,6 @@ var mysql = require('mysql');
 
 app.use(express.static('public'));
 
-
 //--------------------------------------------
 //        sql
 var connection = mysql.createConnection({
