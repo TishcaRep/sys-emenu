@@ -13,6 +13,7 @@ var cuenta = [`
 <th>Descripcion</th>
 <th>Precio</th>
 <th>imagen</th>
+<th>Imagen Previo</th>
 <th></th>
 `];
 var i = 1;
@@ -24,6 +25,7 @@ function rendercuenta(a) {
               <td>${a.descripcion}</td>
               <td>${a.precio}</td>
               <td>${a.imagen}</td>
+              <td><img src="${a.imagen}" ></td>
               <td>
                 <button class="actualibtn" type="button" onclick="eliminar(${i})" name="button">Editar</button>
                 <button class="elimiarbtn" type="button" onclick="eliminar(${i})" name="button">Eliminar</button>
