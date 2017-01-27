@@ -11,7 +11,7 @@ app.use(express.static('public'));
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'toor',
+    password: '',
     database: 'emenu',
     port: 3306
 });
